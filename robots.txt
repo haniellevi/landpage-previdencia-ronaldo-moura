@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ronaldomoura.adv.br/sitemap.xml
+Sitemap: https://landpage-previdencia-ronaldo-moura.vercel.app/sitemap.xml

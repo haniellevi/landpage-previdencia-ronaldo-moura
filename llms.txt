@@ -1,14 +1,14 @@
-# Ronaldo Moura — Advocacia Previdenciária
+# Ronaldo Moura, Advocacia Previdenciária
 
 > Advocacia previdenciária com atendimento direto do advogado responsável. Base em Marília/SP e atendimento online para todo o Brasil.
 
 ## Docs
 
-- [Advogado Previdenciário — INSS, Aposentadoria e Benefícios](https://ronaldomoura.adv.br/): Página principal com as situações atendidas (aposentadoria, auxílios, BPC/LOAS, pensão, revisão de benefício e descontos de empréstimo consignado), prazos do INSS, perguntas frequentes e formulário de contato (nome e WhatsApp).
+- [Advogado Previdenciário, INSS, Aposentadoria e Benefícios](https://landpage-previdencia-ronaldo-moura.vercel.app/): Página principal com as situações atendidas, perguntas frequentes e formulário de contato.
 
 ## Key Facts
 
-- Advogado responsável: Ronaldo Rodrigues Moura — OAB/SP 367822
+- Advogado responsável: Ronaldo Rodrigues Moura, OAB/SP 367822
 - Formado em 2009 e inscrito na OAB desde 2015
 - Sede: Rua Quatro de Abril, 869, Centro, Marília/SP, CEP 17.500-012
 - Atendimento presencial em Marília/SP e online (processos eletrônicos) em todo o Brasil
@@ -18,7 +18,7 @@
 
 ## Contact
 
-- Website: https://ronaldomoura.adv.br/
+- Website: https://landpage-previdencia-ronaldo-moura.vercel.app/
 - WhatsApp (atendimento direto com o advogado): (14) 99673-4555
 - Email: rrmoura.adv@gmail.com
 - Instagram: https://www.instagram.com/advocacia_moura_/
