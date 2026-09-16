@@ -1,251 +1,80 @@
-# Copy rewrite: Ronaldo Moura, Advocacia Previdenciária
+# Copy da landing de Ronaldo Moura
 
-**Página:** landing de captação para direito previdenciário
+Revisão de 16/09/2026. Texto completo aplicado em `index.html`.
 
-**Ação principal:** iniciar uma conversa pelo formulário ou WhatsApp para entender os próximos passos do caso
+## Público, serviço e ação
 
-**Público:** pessoas que receberam negativa, corte, exigência ou demora do INSS, têm desconto não reconhecido no benefício, ou querem se planejar antes de requerer aposentadoria
+Pessoas que querem saber se podem se aposentar, precisam de um benefício, receberam uma negativa ou encontraram um desconto. O serviço é orientação e atuação jurídica previdenciária. A ação principal é conversar com Ronaldo Moura pelo WhatsApp, após preparar uma mensagem com nome, telefone e assunto.
 
-**Premissas usadas:** a origem do tráfego não foi informada. Esta versão foi escrita para busca orgânica, indicação e anúncios de intenção alta. Não pressupõe conversa gratuita, prazo de resposta, resultado de benefício ou resultado judicial.
+## Diagnóstico da versão anterior
 
-## Direção da mensagem
+O título sobre a aposentadoria ter uma história ocupava muitas linhas e não explicava o serviço. Expressões como “entender o cenário” e “o que vale analisar” apareciam em vários blocos sem esclarecer o que a pessoa receberia. Três colunas apertavam texto, retrato e formulário na abertura. O formulário não informava com precisão que o usuário ainda precisava enviar a mensagem pelo WhatsApp.
 
-A página deve fazer uma promessa que o escritório consegue cumprir: a pessoa será atendida pelo advogado responsável, poderá começar com o documento ou informação que já tem e receberá uma explicação dos caminhos possíveis. Essa promessa é mais crível que prometer êxito e reduz a ansiedade que impede o contato.
+## Pesquisa aplicada
 
-O texto abaixo substitui a copy atual sem mudar estrutura, formulários, links, fluxos ou alegações profissionais verificáveis. Números, prazos, regras de consignado e afirmações jurídicas foram removidos dos blocos de conversão. Se forem recolocados, devem receber fonte oficial específica e data de revisão antes da publicação.
+- **Copywriting:** valor específico, uma ideia por seção, benefícios associados ao serviço e próximo passo explícito.
+- **No AI Slop:** remoção de metáforas vagas, frases intercambiáveis e repetição de expressões abstratas.
+- **UI/UX Pro Max:** hierarquia, contraste, alvos de toque, rótulos visíveis, validação próxima aos campos e fluxo curto.
+- [Nielsen Norman Group, How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/): títulos informativos, texto escaneável e conteúdo factual. Não foram extrapolados percentuais do estudo para conversão deste site.
+- [Nielsen Norman Group, Usability for Older Adults](https://www.nngroup.com/articles/usability-for-senior-citizens/): leitura, tamanho dos alvos e mensagens de erro compreensíveis.
+- [Cristiani Borges](https://cristianiborges.com.br/) e [Arraes & Centeno](https://arraesecenteno.com.br/): apresentação imediata da área de atuação e serviços organizados pelo que a pessoa procura. Não foram reutilizados textos, fotos, depoimentos ou números de clientes.
+- [Provimento 205/2021 da OAB](https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021): referência para evitar garantias, rankings, gratuidade e especialização não comprovada na comunicação.
 
-## Meta content
+## Abertura aplicada
 
-**Title:** Advogado Previdenciário em Marília | INSS, Benefícios e Aposentadoria
+**Identificação:** Advocacia previdenciária.
 
-**Meta description:** Recebeu negativa, corte ou exigência do INSS? Ronaldo Moura analisa seu caso com atendimento direto, em Marília e online para todo o Brasil.
+**Título:** Entenda seus direitos na aposentadoria e no INSS.
 
-## Page copy
+**Texto:** Saiba se já pode se aposentar, como pedir um benefício ou o que fazer após uma negativa. Converse diretamente com o advogado que vai analisar seu caso.
 
-### Header
+**Ação:** Conversar com o advogado.
 
-**Botão de contato:** Falar com o advogado
+**Localização:** Em Marília e online para todo o Brasil.
 
-### Hero
+Abertura alternativa para uma campanha exclusiva de planejamento: “Saiba se já pode pedir sua aposentadoria.” A versão publicada mantém benefícios e negativas porque também fazem parte do escopo desta página.
 
-**Eyebrow:** Direito Previdenciário | OAB/SP 367822
+## Atendimentos
 
-**Headline:** Recebeu uma negativa do INSS, teve o benefício cortado ou não sabe o que fazer agora?
+| Serviço | Necessidade explicada |
+| --- | --- |
+| Aposentadoria e planejamento | Conferir contribuição e registros antes do pedido |
+| Benefício negado ou cortado | Analisar a decisão recebida e os documentos |
+| Auxílio-doença e perícia | Orientar pedido, perícia e documentos médicos |
+| BPC/LOAS | Entender requisitos e apresentação do pedido |
+| Pensão e salário-maternidade | Saber quais documentos reunir |
+| Revisão e descontos | Conferir valores, extratos e contratos |
 
-**Subheadline:** Comece pelo que você já tem. Ronaldo Moura analisa os documentos e o histórico do seu caso para explicar quais caminhos podem fazer sentido.
+Cada serviço tem um link que seleciona seu assunto no formulário.
 
-**Linha de apoio:** Atendimento direto com o advogado, em Marília e online para todo o Brasil.
+## Confiança e atendimento
 
-**Pontos de confiança:**
+A apresentação identifica Ronaldo Rodrigues Moura, OAB/SP 367822, com foto real e localização. O texto informa atendimento direto e modalidades presencial e online, já presentes no site anterior. Não acrescenta avaliações, depoimentos, volume de clientes, resultados ou qualificações.
 
-- Atendimento direto com o advogado responsável.
-- Você pode começar com uma carta, um extrato, uma data ou uma dúvida.
-- Análise individual, sem promessa de resultado.
+O processo explica três etapas: contar a necessidade, reunir os documentos indicados e combinar o atendimento e os honorários antes da contratação.
 
-### Formulário principal
+## Formulário e microcopy
 
-**Título:** Conte o que aconteceu
+**Título da seção:** Tire sua dúvida sobre aposentadoria ou benefício.
 
-**Texto de apoio:** Informe seu nome e WhatsApp. O advogado responsável entra em contato para entender seu caso.
+**Explicação:** Preencha seus dados para preparar uma mensagem ao escritório. Você confere e envia pelo WhatsApp para começar a conversa.
 
-**Rótulo de seleção:** Qual situação se aproxima mais da sua? (opcional)
+**Campos:** Seu nome; WhatsApp com DDD; Sobre o que quer conversar? (opcional).
 
-**Opções:**
+**Ação:** Continuar no WhatsApp.
 
-- Meu benefício foi negado ou cortado
-- Quero entender minha aposentadoria
-- Tenho benefício por incapacidade ou perícia
-- Tenho dúvida sobre BPC/LOAS
-- Tenho dúvida sobre pensão por morte
-- Não reconheço um desconto no benefício
-- Outro assunto previdenciário
+**Depois da ação:** Mensagem preparada. Envie no WhatsApp para iniciar a conversa.
 
-**Consentimento:** Autorizo o contato pelo WhatsApp sobre o meu caso. Meus dados serão usados somente para esse atendimento. [Como tratamos seus dados](#privacidade).
+O site não afirma que um contato já foi recebido pelo escritório, que alguém vai retornar automaticamente ou que há consulta gratuita. A mensagem precisa ser enviada pelo visitante no WhatsApp. A política de privacidade descreve esse funcionamento.
 
-**CTA:** Entender meus próximos passos
+## FAQ e metadados
 
-**Nota abaixo do CTA:** Você não precisa separar tudo antes de falar. A conversa inicial serve para entender a situação e indicar o que importa analisar. Qualquer contratação é tratada depois, se fizer sentido para o caso.
+Cinco perguntas sobre planejamento antes do pedido, negativa, documentos, atendimento à distância e honorários. Todas as respostas são iguais no HTML visível e no JSON-LD.
 
-### Barra de confiança
+**Title:** Advogado previdenciário em Marília | Ronaldo Moura.
 
-- **OAB/SP 367822** Ronaldo Rodrigues Moura
-- **Atendimento direto** com o advogado responsável
-- **Marília e online** para todo o Brasil
-- **Análise individual** sem garantia de resultado
+**Description:** Aposentadoria, benefícios negados, auxílio-doença, BPC e pensão. Converse com Ronaldo Moura, advogado previdenciário em Marília, com atendimento online.
 
-### Situações atendidas
+## Padrão editorial para manter
 
-**Título:** Em qual situação você precisa de orientação?
-
-**Texto de abertura:** Escolha a situação mais próxima da sua. O objetivo é organizar o primeiro contato, não antecipar uma conclusão antes de analisar os documentos.
-
-| Situação | Texto do cartão | CTA |
-|---|---|---|
-| Aposentadoria | Seu pedido foi negado, parou de andar ou você tem dúvida sobre o tempo que aparece no INSS. | Quero entender minha aposentadoria |
-| Benefício por incapacidade | Houve negativa, corte, revisão ou dúvida após uma perícia. | Tenho essa situação |
-| BPC/LOAS | Você recebeu uma negativa, uma exigência ou precisa entender o que separar para a análise. | Quero falar sobre BPC/LOAS |
-| Pensão por morte ou auxílio-reclusão | Há dúvida sobre documentos, dependência, contribuições ou um benefício interrompido. | Quero entender meu caso |
-| Salário-maternidade | Você precisa avaliar o benefício como trabalhadora, autônoma, MEI ou segurada rural. | Quero falar sobre salário-maternidade |
-| Revisão de benefício | Algum vínculo, período de trabalho ou contribuição não aparece como deveria no histórico. | Quero conferir meu histórico |
-| Desconto no benefício | Você não reconhece um empréstimo, cartão consignado, refinanciamento ou parcela. | Quero entender o desconto |
-| Planejamento previdenciário | Você quer organizar documentos e contribuições antes de fazer o pedido. | Quero me planejar |
-
-**Nota de responsabilidade:** Cada caso depende dos documentos, do histórico e das regras aplicáveis. O escritório não garante concessão de benefício nem prazo de decisão.
-
-### Como funciona
-
-**Título:** O primeiro passo é entender a sua situação
-
-**Texto de abertura:** Você não precisa saber todos os termos nem ter todos os documentos antes do contato. Comece pelo que aconteceu.
-
-**Passo 1: Você explica a situação**
-
-Pelo formulário ou WhatsApp, conte o que aconteceu do jeito que conseguir. Uma carta, print, data ou extrato já ajuda a começar.
-
-**Passo 2: O advogado confere o que importa**
-
-Ronaldo analisa os documentos, as datas e o histórico disponível. Se faltar algo relevante, você recebe orientação sobre o que procurar.
-
-**Passo 3: Você entende os próximos caminhos**
-
-Depois da análise inicial, você entende quais medidas podem ser avaliadas, quais documentos importam e o que precisa acontecer a seguir.
-
-**Subtítulo:** O que pode ajudar na primeira conversa
-
-- Carta, notificação ou decisão do INSS, se você tiver recebido.
-- Número do benefício e extrato de pagamentos.
-- CNIS e Carteira de Trabalho, quando relacionados ao caso.
-- Laudos, exames e atestados, em situações de incapacidade.
-- Contratos e extratos, quando houver desconto no benefício.
-
-**Nota:** Não conseguiu separar tudo? Comece com o que estiver em mãos. O restante é organizado durante o atendimento.
-
-### Seção de descontos consignados
-
-**Eyebrow:** Descontos no benefício
-
-**Título:** Há um desconto no seu benefício que você não reconhece?
-
-**Texto:** Empréstimos, cartões consignados, refinanciamentos e portabilidades podem aparecer no extrato de formas difíceis de entender. Antes de concluir qualquer coisa, vale conferir o lançamento, o contrato e os documentos disponíveis.
-
-**Lista:**
-
-- Empréstimo que você não reconhece ou não lembra de ter contratado.
-- Cartão consignado com cobrança recorrente que gera dúvida.
-- Parcela, refinanciamento ou portabilidade que não ficou clara.
-- Desconto que parece incompatível com o que foi contratado.
-
-**Texto de cautela:** Nem todo desconto é indevido. A análise individual permite comparar o extrato, os contratos e o histórico para entender o que merece atenção.
-
-**CTA:** Conferir meu desconto
-
-**Caixa lateral:**
-
-**Título:** O que observar no extrato
-
-Procure o nome da instituição, o tipo de lançamento, o valor descontado e a data em que começou. Guarde também propostas, contratos e mensagens recebidas sobre o crédito.
-
-### Quem analisa
-
-**Eyebrow:** Atendimento direto
-
-**Título:** Você fala com o advogado que analisa o caso
-
-**Texto:** Ronaldo Rodrigues Moura é advogado inscrito na OAB/SP sob o número 367822, com sede em Marília e atendimento online para todo o Brasil. Ele próprio lê os documentos, confere o histórico e responde sobre os próximos passos possíveis.
-
-**Texto complementar:** O trabalho começa pela situação real da pessoa. Primeiro, são organizados os fatos e documentos disponíveis. Depois, o caso é avaliado com clareza sobre o que pode ser analisado e o que ainda precisa ser confirmado.
-
-**Fatos curtos:**
-
-- Formação em 2009
-- OAB/SP 367822, desde 2015
-- Marília, SP, com atendimento online para todo o Brasil
-
-**CTA:** Falar com o advogado
-
-### Perguntas frequentes
-
-**Título:** Dúvidas antes de falar com o advogado
-
-**Texto de abertura:** Respostas iniciais para ajudar você a organizar a conversa. Prazos, documentos e possibilidades dependem do tipo de benefício e da situação analisada.
-
-**Pergunta:** Recebi uma negativa. Ainda posso buscar orientação?
-
-**Resposta:** Sim. Guarde a decisão ou notificação, observe a data em que a recebeu e separe os documentos relacionados ao pedido. A análise mostra quais alternativas podem ser avaliadas no seu caso.
-
-**Pergunta:** Preciso ir ao escritório em Marília?
-
-**Resposta:** Não. O atendimento pode acontecer online, por WhatsApp e videochamada. Quem preferir pode conversar presencialmente em Marília.
-
-**Pergunta:** Preciso ter todos os documentos antes do primeiro contato?
-
-**Resposta:** Não. Uma carta do INSS, extrato, data ou relato já permite começar a entender a situação. O advogado orienta sobre o que mais pode ser necessário.
-
-**Pergunta:** Como os honorários são definidos?
-
-**Resposta:** Eles são tratados antes de qualquer contratação, de acordo com o caso e os parâmetros aplicáveis. A conversa inicial serve para entender a situação e os caminhos que podem ser analisados.
-
-**Pergunta:** O escritório garante a concessão de benefício ou devolução de valores?
-
-**Resposta:** Não. Cada situação depende dos documentos, do histórico e das regras aplicáveis. A análise esclarece o que é possível avaliar, sem garantia de resultado.
-
-### CTA final
-
-**Título:** Comece com o que você já tem
-
-**Texto:** Uma carta, uma data, um extrato ou uma dúvida já podem iniciar a conversa. Conte o que aconteceu e entenda o que merece ser analisado.
-
-**CTA do formulário:** Entender meus próximos passos
-
-**Alternativa de WhatsApp:** Prefere falar pelo WhatsApp? [Falar com o advogado](https://wa.me/5514996734555).
-
-### Privacidade
-
-**Título:** Como seus dados são usados
-
-**Texto:** Nome e WhatsApp são usados somente para responder ao seu pedido de contato sobre o caso informado. Eles não são usados para outras finalidades nem compartilhados com terceiros. Você pode solicitar exclusão pelo WhatsApp ou pelo e-mail `rrmoura.adv@gmail.com`.
-
-**Complemento:** Nenhum documento do seu caso é armazenado neste site. Conversas realizadas pelo WhatsApp também seguem as políticas da plataforma.
-
-## Alternatives to test
-
-### Headlines
-
-| Opção | Copy | Melhor uso |
-|---|---|---|
-| A | Recebeu uma negativa do INSS, teve o benefício cortado ou não sabe o que fazer agora? | Tráfego amplo de busca ou indicação |
-| B | Seu pedido no INSS parou, foi negado ou trouxe uma dúvida? Comece pelo documento. | Anúncios ou páginas focadas em primeira análise |
-| C | Antes de tomar uma decisão sobre o INSS, entenda o que seus documentos mostram. | Planejamento, revisão e audiência mais reflexiva |
-
-### CTAs
-
-| Opção | Copy | Por que funciona |
-|---|---|---|
-| A | Entender meus próximos passos | Oferece uma ação concreta, sem prometer resultado |
-| B | Contar o que aconteceu | Reduz o esforço para quem está inseguro ou sem documentos |
-| C | Falar com o advogado | Reforça o diferencial de atendimento direto |
-
-## Anotações editoriais
-
-| Elemento | Decisão | Princípio aplicado |
-|---|---|---|
-| Hero | Começa pela situação vivida e explica a ação seguinte | Clareza antes de criatividade |
-| CTA | Troca pedido genérico de conversa por entendimento dos próximos passos | Benefício imediato e verificável |
-| Formulário | Remove a sensação de que a pessoa precisa explicar tudo antes do contato | Redução de fricção |
-| Situações | Usa linguagem próxima do leitor e preserva o limite de análise individual | Linguagem do cliente e precisão jurídica |
-| Consignado | Retira percentuais e resultados jurídicos da peça de conversão | Evita desatualização e promessa implícita |
-| Autoridade | Destaca o atendimento direto e fatos profissionais já declarados | Prova concreta, sem autoelogio |
-| FAQ | Mantém respostas úteis sem prazos absolutos em uma página comercial | Confiança calibrada |
-
-## Checklist before implementation
-
-- Confirmar a disponibilidade real de atendimento direto pelo advogado em todos os canais.
-- Revisar OAB, endereço, CNPJ, telefone e e-mail contra os dados oficiais do escritório.
-- Validar os textos de privacidade e consentimento com o fluxo real do formulário e WhatsApp.
-- Só publicar prazos, margens, valores ou consequências jurídicas após vincular a fonte oficial específica e a data de revisão.
-- Resolver o domínio canônico e os ativos apontados na auditoria GEO antes de lançar tráfego para a página.
-
-## Source context
-
-- [Landing auditada](https://landpage-previdencia-ronaldo-moura.vercel.app/)
-- [Provimento 205/2021 da OAB](https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021)
+O título informa o assunto. O parágrafo explica a necessidade e a atuação do escritório. A ação descreve o próximo passo real. Regras, valores, prazos, credenciais ou resultados só entram após confirmação específica. Leia o texto em voz alta e substitua trechos genéricos por uma explicação concreta antes de publicar.
