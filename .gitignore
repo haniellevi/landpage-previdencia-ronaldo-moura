@@ -1,3 +1,7 @@
 .claude/
 .reticle/
 .DS_Store
+.vercel
+.env*
+.firecrawl/
+video/node_modules/

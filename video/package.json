@@ -1,0 +1,19 @@
+{
+  "name": "jornada-pedido-inss-video",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts JornadaPedido",
+    "render:video": "remotion render src/index.ts JornadaPedido ../assets/video/jornada-pedido-inss.mp4 --codec h264 --crf 28",
+    "render:poster": "remotion still src/index.ts JornadaPedido ../assets/video/jornada-pedido-inss-poster.png --frame 470",
+    "render:og": "remotion still src/index.ts OgImage ../assets/og-previdenciario.png",
+    "render": "npm run render:video && npm run render:poster && npm run render:og"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "5.3.0",
+    "@remotion/cli": "4.0.526",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.526"
+  }
+}

@@ -1,80 +1,46 @@
 # Copy da landing de Ronaldo Moura
 
-Revisão de 16/09/2026. Texto completo aplicado em `index.html`.
+Revisão de 17/09/2026. Texto completo em `index.html`.
 
-## Público, serviço e ação
+## Pedido do cliente
 
-Pessoas que querem saber se podem se aposentar, precisam de um benefício, receberam uma negativa ou encontraram um desconto. O serviço é orientação e atuação jurídica previdenciária. A ação principal é conversar com Ronaldo Moura pelo WhatsApp, após preparar uma mensagem com nome, telefone e assunto.
+A página precisa conversar com pessoas simples, sem muito estudo, e deixar fácil encontrar a informação.
 
-## Diagnóstico da versão anterior
+## Referências analisadas
 
-O título sobre a aposentadoria ter uma história ocupava muitas linhas e não explicava o serviço. Expressões como “entender o cenário” e “o que vale analisar” apareciam em vários blocos sem esclarecer o que a pessoa receberia. Três colunas apertavam texto, retrato e formulário na abertura. O formulário não informava com precisão que o usuário ainda precisava enviar a mensagem pelo WhatsApp.
+- [Sampaio de Moura](https://sampaiodemoura.com.br/advogado-especialista-em-inss/): lista direta de problemas ("Benefício negado pelo INSS", "Auxílio-doença cancelado") e áreas agrupadas em Aposentadorias, Benefícios e Revisões.
+- [Ariane Massola](https://arianemassolaadv.com.br/pedido-em-analise/): jornada do pedido em análise com os prazos do INSS e processo de atendimento em quatro passos.
+- [Olavo Gil](https://olavogiladv.vkron.pro/previdenciario/): cada benefício explicado em uma frase ("Indenização mensal para quem ficou com sequela...").
+- 14 sites de escritórios previdenciários analisados antes (em `.firecrawl/`, fora do repositório).
 
-## Pesquisa aplicada
+Nenhum texto, foto ou depoimento dessas páginas foi copiado.
 
-- **Copywriting:** valor específico, uma ideia por seção, benefícios associados ao serviço e próximo passo explícito.
-- **No AI Slop:** remoção de metáforas vagas, frases intercambiáveis e repetição de expressões abstratas.
-- **UI/UX Pro Max:** hierarquia, contraste, alvos de toque, rótulos visíveis, validação próxima aos campos e fluxo curto.
-- [Nielsen Norman Group, How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/): títulos informativos, texto escaneável e conteúdo factual. Não foram extrapolados percentuais do estudo para conversão deste site.
-- [Nielsen Norman Group, Usability for Older Adults](https://www.nngroup.com/articles/usability-for-senior-citizens/): leitura, tamanho dos alvos e mensagens de erro compreensíveis.
-- [Cristiani Borges](https://cristianiborges.com.br/) e [Arraes & Centeno](https://arraesecenteno.com.br/): apresentação imediata da área de atuação e serviços organizados pelo que a pessoa procura. Não foram reutilizados textos, fotos, depoimentos ou números de clientes.
-- [Provimento 205/2021 da OAB](https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021): referência para evitar garantias, rankings, gratuidade e especialização não comprovada na comunicação.
+## Regras de texto
 
-## Abertura aplicada
+- Falar com "você", frases curtas, uma ideia por frase.
+- Nomear a situação antes do termo jurídico: "Alguém da família faleceu" antes de "pensão por morte".
+- Explicar siglas na primeira vez (CNIS, BPC, "exigência").
+- Dizer sempre qual é o próximo passo e o que ter em mãos.
+- Falar de prazo com honestidade: "em geral", "costuma levar".
 
-**Identificação:** Advocacia previdenciária.
+## Limites éticos (Provimento 205/2021 da OAB)
 
-**Título:** Entenda seus direitos na aposentadoria e no INSS.
+Evitado de propósito, mesmo aparecendo nas referências:
 
-**Texto:** Saiba se já pode se aposentar, como pedir um benefício ou o que fazer após uma negativa. Converse diretamente com o advogado que vai analisar seu caso.
+- Promessa de resultado ("garantimos", "conquista do benefício", "consegui rápido").
+- Gratuidade ("sem custo pela primeira análise", "triagem gratuita").
+- Urgência falsa e contadores.
+- Depoimentos (o escritório ainda não tem avaliações para mostrar) e números de casos.
+- A palavra "especialista".
 
-**Ação:** Conversar com o advogado.
+## Fatos usados e fonte
 
-**Localização:** Em Marília e online para todo o Brasil.
+- Prazos de 30, 45, 60 e 90 dias: acordo INSS/MPF homologado pelo STF no RE 1.171.152, cláusulas 1ª e 2ª (contagem após perícia, avaliação social ou documentos). O acordo previa reavaliação após 24 meses; confirmar com o advogado se os prazos seguem valendo.
+- Recurso em 30 dias, idade rural 55/60 anos, carência de 12 contribuições no auxílio-doença, renda e CadÚnico no BPC, prazo de 10 anos para revisão: regras gerais, apresentadas com "em geral" ou "em regra".
+- Formação em 2009 e OAB/SP desde 2015: informados pelo cliente.
 
-Abertura alternativa para uma campanha exclusiva de planejamento: “Saiba se já pode pedir sua aposentadoria.” A versão publicada mantém benefícios e negativas porque também fazem parte do escopo desta página.
+## Para validar com o Dr. Ronaldo
 
-## Atendimentos
-
-| Serviço | Necessidade explicada |
-| --- | --- |
-| Aposentadoria e planejamento | Conferir contribuição e registros antes do pedido |
-| Benefício negado ou cortado | Analisar a decisão recebida e os documentos |
-| Auxílio-doença e perícia | Orientar pedido, perícia e documentos médicos |
-| BPC/LOAS | Entender requisitos e apresentação do pedido |
-| Pensão e salário-maternidade | Saber quais documentos reunir |
-| Revisão e descontos | Conferir valores, extratos e contratos |
-
-Cada serviço tem um link que seleciona seu assunto no formulário.
-
-## Confiança e atendimento
-
-A apresentação identifica Ronaldo Rodrigues Moura, OAB/SP 367822, com foto real e localização. O texto informa atendimento direto e modalidades presencial e online, já presentes no site anterior. Não acrescenta avaliações, depoimentos, volume de clientes, resultados ou qualificações.
-
-O processo explica três etapas: contar a necessidade, reunir os documentos indicados e combinar o atendimento e os honorários antes da contratação.
-
-## Formulário e microcopy
-
-**Título da seção:** Tire sua dúvida sobre aposentadoria ou benefício.
-
-**Explicação:** Preencha seus dados para preparar uma mensagem ao escritório. Você confere e envia pelo WhatsApp para começar a conversa.
-
-**Campos:** Seu nome; WhatsApp com DDD; Sobre o que quer conversar? (opcional).
-
-**Ação:** Continuar no WhatsApp.
-
-**Depois da ação:** Mensagem preparada. Envie no WhatsApp para iniciar a conversa.
-
-O site não afirma que um contato já foi recebido pelo escritório, que alguém vai retornar automaticamente ou que há consulta gratuita. A mensagem precisa ser enviada pelo visitante no WhatsApp. A política de privacidade descreve esse funcionamento.
-
-## FAQ e metadados
-
-Cinco perguntas sobre planejamento antes do pedido, negativa, documentos, atendimento à distância e honorários. Todas as respostas são iguais no HTML visível e no JSON-LD.
-
-**Title:** Advogado previdenciário em Marília | Ronaldo Moura.
-
-**Description:** Aposentadoria, benefícios negados, auxílio-doença, BPC e pensão. Converse com Ronaldo Moura, advogado previdenciário em Marília, com atendimento online.
-
-## Padrão editorial para manter
-
-O título informa o assunto. O parágrafo explica a necessidade e a atuação do escritório. A ação descreve o próximo passo real. Regras, valores, prazos, credenciais ou resultados só entram após confirmação específica. Leia o texto em voz alta e substitua trechos genéricos por uma explicação concreta antes de publicar.
+- Atende de fato todos os assuntos listados (confirmado pelo cliente em 17/09/2026: rural, professor, auxílio-acidente e pedido parado).
+- Frase do aviso de golpe e se o número (14) 99673-4555 também recebe ligações.
+- Se os prazos do acordo seguem sendo aplicados na região.

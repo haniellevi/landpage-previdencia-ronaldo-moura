@@ -1,0 +1,3 @@
+video/
+*.md
+!README.md

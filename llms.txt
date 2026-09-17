@@ -1,27 +1,27 @@
 # Ronaldo Moura, Advocacia Previdenciária
 
-> Advocacia previdenciária com atendimento direto do advogado responsável. Base em Marília/SP e atendimento online para todo o Brasil.
+> Advocacia previdenciária com atendimento direto do advogado responsável. Escritório em Marília/SP e atendimento online para todo o Brasil.
 
 ## Docs
 
-- [Advogado previdenciário em Marília | Ronaldo Moura](https://landpage-previdencia-ronaldo-moura.vercel.app/): Página principal com atendimentos, apresentação do advogado, perguntas frequentes e formulário para preparar uma mensagem no WhatsApp.
+- [Advogado previdenciário em Marília | Ronaldo Moura](https://landpage-previdencia-ronaldo-moura.vercel.app/): assuntos atendidos explicados em linguagem simples, prazos do INSS para responder pedidos, o que fazer após uma negativa, como funciona o atendimento, documentos úteis e perguntas frequentes.
 
 ## Key Facts
 
-- Advogado responsável: Ronaldo Rodrigues Moura, OAB/SP 367822
-- Sede: Rua Quatro de Abril, 869, Centro, Marília/SP, CEP 17.500-012
+- Advogado responsável: Ronaldo Rodrigues Moura, formado em 2009, OAB/SP 367822 (inscrito desde 2015)
+- Escritório: Rua Quatro de Abril, 869, Centro, Marília/SP, CEP 17500-012
 - Atendimento presencial em Marília/SP e online por WhatsApp e videochamada em todo o Brasil
-- Serviços apresentados: aposentadoria e planejamento; benefício negado ou cortado; auxílio-doença e perícia; BPC/LOAS; pensão por morte e salário-maternidade; revisão e descontos no benefício; conferência do CNIS e das contribuições
-- O formulário prepara uma mensagem com nome, WhatsApp e assunto; o visitante escolhe enviar a mensagem no WhatsApp. Não há confirmação automática de atendimento ou resultado.
+- Assuntos: aposentadoria (urbana, rural e de professor), auxílio-doença e perícia, auxílio-acidente, BPC/LOAS, pensão por morte, salário-maternidade, benefício negado ou cortado, pedido parado no INSS, descontos não reconhecidos no benefício e revisão do valor
+- Prazos máximos para o INSS concluir pedidos, segundo o acordo INSS/MPF homologado pelo STF (RE 1.171.152): 30 dias (salário-maternidade), 45 dias (auxílio-doença e aposentadoria por invalidez), 60 dias (pensão por morte, auxílio-acidente e auxílio-reclusão), 90 dias (aposentadorias e BPC/LOAS), contados após perícia, avaliação social ou entrega de documentos
+- O contato é feito diretamente pelo WhatsApp; o site não tem formulário
 
 ## Contact
 
 - Website: https://landpage-previdencia-ronaldo-moura.vercel.app/
-- WhatsApp (atendimento direto com o advogado): (14) 99673-4555
+- WhatsApp e telefone: (14) 99673-4555
 - Email: rrmoura.adv@gmail.com
 - Instagram: https://www.instagram.com/advocacia_moura_/
 - Maps: https://maps.app.goo.gl/E9EPDWFpPNC9PG716
-- Address: Rua Quatro de Abril, 869, Centro, Marília/SP, CEP 17.500-012, Brasil
 
 ## Legal
 

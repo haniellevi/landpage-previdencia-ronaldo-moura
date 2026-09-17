@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <title>Ronaldo Moura, Advocacia Previdenciária</title>
-  <rect width="64" height="64" rx="12" fill="#243d38" />
-  <path d="M32 12v26M24 24h16M24 38h16" stroke="#fffaf1" stroke-width="3" stroke-linecap="round" />
-  <path d="M32 8 56 32 32 56 8 32 32 8Z" stroke="#d5b785" stroke-width="2" />
+  <rect width="64" height="64" rx="14" fill="#14213d" />
+  <path d="M32 12v26M24 24h16M24 38h16" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M32 8 56 32 32 56 8 32 32 8Z" stroke="#4fb584" stroke-width="2.2" />
 </svg>

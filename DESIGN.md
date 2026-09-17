@@ -1,68 +1,42 @@
 # Design da landing previdenciária
 
-Revisão de 16/09/2026. A implementação atual é a referência; as auditorias anteriores são registros históricos.
+## Público
 
-## Direção
+Pessoas de 45 a 75 anos, muitas com pouca escolaridade, lendo no celular. Estão ansiosas com um pedido negado, parado ou com a dúvida se já podem se aposentar.
 
-Página clara, com fotografia, tipografia editorial e linguagem próxima do público que procura aposentadoria ou benefícios do INSS. A primeira tela identifica o serviço, apresenta o benefício da orientação e permite iniciar o contato. O formulário fica em uma seção própria.
+## Princípios
 
-Base de trabalho: `ui-ux-pro-max`, com consulta `legal services approachable editorial`, e pesquisas específicas de rótulos, validação e leitura. A recomendação foi adaptada ao escritório, sem números de sucesso, avaliações ou credenciais inventadas.
+- **Achar o assunto em um toque.** Logo após a abertura, 12 blocos com ícone e frase do dia a dia ("Trabalhei na roça", "Meu pedido está parado") levam direto à explicação.
+- **Mesma estrutura em todo assunto.** Cada cartão tem "Para quem é", "Como o advogado ajuda" e um botão de WhatsApp com a mensagem já escrita para aquele assunto.
+- **Uma ação.** WhatsApp em verde, repetido ao longo da página e numa barra fixa no celular, com a opção de ligar.
+- **Leitura confortável.** Texto base de 18px (17px no celular), alvos de toque de pelo menos 48px, contraste alto e nada escondido atrás de animação.
 
-## Cores implementadas
+## Tokens
 
-| Token | Cor | Uso |
+| Token | Valor | Uso |
 | --- | --- | --- |
-| `--ink` | `#243d38` | Títulos, ações principais, seção do advogado e rodapé |
-| `--ink-hover` | `#172d29` | Feedback dos botões |
-| `--body` | `#4e5853` | Texto corrido |
-| `--accent` | `#885b2f` | Destaque na aposentadoria, ícones e etiquetas |
-| `--gold` | `#ddc399` | Destaque sobre fundo escuro |
-| `--paper` | `#faf8f3` | Fundo principal |
-| `--sand` | `#eee8de` | Contato e encerramento |
-| `--line` | `#dadcd2` | Divisórias |
-| `--on-dark` | `#d8e2dc` | Texto sobre verde escuro |
+| `--navy` | `#14213d` | Títulos, faixas escuras |
+| `--body` | `#3b4656` | Texto |
+| `--green` | `#1f7a4d` | Ações e destaques |
+| `--green-soft` | `#e8f5ee` | Fundo de ícones e botões secundários |
+| `--amber` / `--amber-soft` | `#8a5210` / `#fdf1dc` | Problemas com o INSS e aviso de golpe |
+| `--paper` | `#f6f7f9` | Seções alternadas |
 
-## Tipografia e layout
+Fonte: Manrope (400 a 800), hospedada no próprio site. Raios de 14 a 28px. Ícones de traço em SVG, 24px.
 
-- Lora nos títulos; DM Sans no corpo e nas ações. Arquivos WOFF2 hospedados no próprio site, com licenças em `assets/fonts/` e `font-display: swap`.
-- Corpo de 17 px no desktop e 16 px no celular, com entrelinha de 1,65. Campos têm 16 px.
-- Conteúdo de até 1.200 px; laterais de 20 px no celular. A abertura tem duas colunas no desktop e uma no celular.
-- Os botões principais têm pelo menos 50 px de altura. Links de navegação, de serviços e perguntas oferecem alvos de ao menos 44 px.
-- O título não depende de quebras manuais; a largura e a escala foram conferidas em seis tamanhos de tela.
+## Seções
 
-## Sequência da página
+1. Abertura com título, WhatsApp, três garantias de atendimento e foto.
+2. Encontre seu assunto (12 blocos).
+3. Assuntos em três grupos: Aposentadoria, Benefícios do INSS e Problemas com o INSS.
+4. O INSS negou? Três passos.
+5. Prazos do INSS, com o vídeo "Jornada do pedido" e o texto do vídeo.
+6. Como funciona o atendimento.
+7. Quem atende, com aviso de golpe.
+8. O que separar.
+9. Dúvidas.
+10. Contato e endereço.
 
-1. Serviço, foto do casal, ação principal, localização e identificação profissional.
-2. Atalhos para aposentadoria, benefício e negativa.
-3. Seis áreas de atendimento em blocos abertos, separados por linhas.
-4. Retrato real e apresentação de Ronaldo Moura.
-5. Três etapas do atendimento.
-6. Formulário para preparar a mensagem no WhatsApp.
-7. FAQ, convite de contato e rodapé com identificação e privacidade.
+## Vídeo
 
-## Imagens
-
-- `ronaldo-moura.webp`: foto original do advogado, sem alteração do rosto ou reconstrução por IA. A imagem mantém sua proporção na apresentação profissional.
-- `casal-documentos-previdencia.webp`: cena ilustrativa gerada na revisão anterior, sem identificação como cliente, testemunho ou caso real. Nesta versão, aparece na abertura.
-- As imagens foram codificadas em WebP, preservando as dimensões. A cena do casal passou de cerca de 1,9 MB para 96 KB; o retrato, de 164 KB para 16 KB.
-- A imagem principal tem `fetchpriority="high"`; o retrato abaixo da dobra usa carregamento tardio. Todas têm dimensões declaradas.
-
-## Interação e acessibilidade
-
-- Menu móvel e FAQ com `details`/`summary` nativos, utilizáveis por teclado. Escape fecha o menu.
-- Link de pular conteúdo, hierarquia semântica, foco visível e textos alternativos.
-- Formulário com rótulos, seleção nativa de assunto, mensagens junto dos campos e resumo de erros focável.
-- O assunto selecionado em um serviço é levado para o formulário. Nome, telefone e assunto entram na mensagem do WhatsApp.
-- A barra móvel aparece quando a ação da abertura saiu da tela e fica oculta durante a exibição do formulário.
-- Sem animações de entrada, conteúdo escondido por efeitos ou carrosséis. `prefers-reduced-motion` desliga a rolagem suave.
-
-## Critérios para futuras revisões
-
-Conferir 320, 375, 390, 768, 1024 e 1440 px: ausência de rolagem lateral, CTA principal visível na primeira tela, fotos com proporções corretas e menu utilizável. Validar também erros de formulário, cada assunto, dados na mensagem preparada, FAQ por teclado e igualdade entre FAQ visível e JSON-LD. A navegação para WhatsApp deve ser interceptada durante os testes, sem enviar mensagens.
-
-## Referências
-
-- [Nielsen Norman Group: leitura na web](https://www.nngroup.com/articles/how-users-read-on-the-web/).
-- [Nielsen Norman Group: usabilidade para pessoas mais velhas](https://www.nngroup.com/articles/usability-for-senior-citizens/).
-- [Cristiani Borges](https://cristianiborges.com.br/) e [Arraes & Centeno](https://arraesecenteno.com.br/): serviço identificado logo na abertura e caminhos por necessidade.
-- [Referência no Behance](https://www.behance.net/gallery/218012995/Website-Advogada-Alecsandra-Resende): hierarquia visual e presença de fotografia. Nenhum material da referência foi reutilizado.
+Feito com Remotion (`video/`), 1080×1080, 27 segundos, sem áudio. Toca sem som quando aparece na tela e pausa ao sair; não toca sozinho para quem prefere menos movimento. O texto do vídeo fica disponível abaixo dele.
