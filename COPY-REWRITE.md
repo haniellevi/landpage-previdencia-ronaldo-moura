@@ -15,6 +15,10 @@ A página precisa conversar com pessoas simples, sem muito estudo, e deixar fác
 
 Nenhum texto, foto ou depoimento dessas páginas foi copiado.
 
+## Enxugamento (17/09/2026, pedido do cliente)
+
+O cliente apontou repetição e excesso de seções. Saíram o índice de blocos (repetia os cartões), a faixa "O INSS negou? Faça isso primeiro" (já está no cartão de negativa e nas dúvidas), a seção "Como funciona" (virou três linhas dentro de "Quem atende") e a lista "O que separar" (virou resposta na dúvida sobre documentos). As dúvidas foram de oito para seis. Cada assunto passou de dois parágrafos para uma frase. Resultado: 10 seções viraram 6 e a página caiu de 10.529 px para 5.466 px de altura no computador.
+
 ## Regras de texto
 
 - Falar com "você", frases curtas, uma ideia por frase.

@@ -6,8 +6,8 @@ Pessoas de 45 a 75 anos, muitas com pouca escolaridade, lendo no celular. Estão
 
 ## Princípios
 
-- **Achar o assunto em um toque.** Logo após a abertura, 12 blocos com ícone e frase do dia a dia ("Trabalhei na roça", "Meu pedido está parado") levam direto à explicação.
-- **Mesma estrutura em todo assunto.** Cada cartão tem "Para quem é", "Como o advogado ajuda" e um botão de WhatsApp com a mensagem já escrita para aquele assunto.
+- **Menos seções, nada repetido.** Seis seções na página inteira. Cada informação aparece uma vez só: prazo do INSS fica na seção de prazos, documentos ficam na dúvida sobre documentos.
+- **Um toque, uma frase.** Os 12 assuntos são linhas clicáveis com ícone, título do dia a dia ("Trabalhei na roça") e uma única frase de explicação. O toque abre o WhatsApp com a mensagem daquele assunto já escrita.
 - **Uma ação.** WhatsApp em verde, repetido ao longo da página e numa barra fixa no celular, com a opção de ligar.
 - **Leitura confortável.** Texto base de 18px (17px no celular), alvos de toque de pelo menos 48px, contraste alto e nada escondido atrás de animação.
 
@@ -26,16 +26,14 @@ Fonte: Manrope (400 a 800), hospedada no próprio site. Raios de 14 a 28px. Íco
 
 ## Seções
 
-1. Abertura com título, WhatsApp, três garantias de atendimento e foto.
-2. Encontre seu assunto (12 blocos).
-3. Assuntos em três grupos: Aposentadoria, Benefícios do INSS e Problemas com o INSS.
-4. O INSS negou? Três passos.
-5. Prazos do INSS, com o vídeo "Jornada do pedido" e o texto do vídeo.
-6. Como funciona o atendimento.
-7. Quem atende, com aviso de golpe.
-8. O que separar.
-9. Dúvidas.
-10. Contato e endereço.
+1. Abertura: "Aposentadoria e benefícios do INSS" em destaque verde no título, WhatsApp, duas garantias e foto.
+2. Assuntos: 12 linhas clicáveis em três grupos (Aposentadoria, Benefícios do INSS, Problemas com o INSS).
+3. Prazos do INSS, com o vídeo "Jornada do pedido" e o texto do vídeo.
+4. Quem atende, com os três passos do atendimento e o aviso de golpe.
+5. Dúvidas (seis).
+6. Contato e endereço.
+
+A palavra-chave "Aposentadoria e benefícios do INSS" abre o título da página, o `<title>` e a descrição.
 
 ## Vídeo
 
