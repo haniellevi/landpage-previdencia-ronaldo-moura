@@ -50,6 +50,8 @@ Não foram acrescentados requisitos detalhados, prazos judiciais ou valores que 
 
 ## Padrão para próximas revisões
 
+A voz da página é a do próprio Ronaldo, em primeira pessoa do singular, conversando com “você”. Usar “analiso”, “explico”, “me conte” e “fale comigo”. Evitar narrador externo (“Ronaldo analisa”, “o advogado orienta”, “ele confere”) e plural de equipe. As perguntas do FAQ e opções de situação representam a voz do visitante; as respostas são de Ronaldo. Identificação profissional, legendas de retrato e dados cadastrais mantêm nomes e números objetivos. A mensagem preparada no WhatsApp continua sendo escrita pelo visitante para Ronaldo.
+
 Cada bloco deve responder: o que está acontecendo, o que o advogado faz e como começar. Escrever com palavras que a pessoa usaria numa conversa. Evitar repetir abstrações como “entender o cenário”, usar medo para pressionar ou prometer aprovação. O nome técnico pode aparecer, desde que explicado.
 
 Preservar a foto real do advogado e tratar cenas geradas como ilustrações, sem sugerir clientes ou testemunhos. Manter os dados estruturados iguais ao conteúdo visível.
