@@ -1,0 +1,8 @@
+.firecrawl/
+.claude/
+.reticle/
+.env*
+*.md
+assets/ronaldo-moura.png
+assets/casal-documentos-previdencia.png
+assets/og-previdenciario.jpg

@@ -20,10 +20,12 @@ Abra http://127.0.0.1:4173/.
 - `index.html`: conteúdo, formulário, FAQ e dados estruturados.
 - `styles.css`: fontes locais, cores, layout e regras responsivas.
 - `script.js`: menu móvel, seleção de assunto, máscara, validação e preparação da mensagem.
-- `assets/`: imagens e ícones. As versões WebP são usadas na página; os originais foram preservados.
+- `assets/`: imagens e ícones. As cenas de família têm versões WebP de 640 e 1120 px, escolhidas pelo navegador conforme a tela.
 - `assets/fonts/`: WOFF2 de DM Sans e Lora, com licenças OFL.
 - `DESIGN.md`: direção visual e critérios de revisão.
 - `COPY-REWRITE.md`: pesquisa, decisões de copy e padrão editorial.
+- `IMAGENS.md`: origem e prompts das duas novas fotos ilustrativas.
+- `.vercelignore`: mantém pesquisas locais, documentos de trabalho e originais não utilizados fora da publicação.
 - `llms.txt`, `robots.txt` e `sitemap.xml`: informações públicas de descoberta.
 
 ## Contato pelo WhatsApp
@@ -48,7 +50,7 @@ Conferir também:
 3. Seleção de todos os assuntos, mensagens de erro e telefone com DDD.
 4. Conteúdo e destino da mensagem preparada, interceptando a navegação durante os testes.
 5. Uma única aba de WhatsApp e preservação dos campos.
-6. Paridade das cinco respostas do FAQ com o JSON-LD, IDs únicos, âncoras e assets.
+6. Paridade das seis respostas do FAQ com o JSON-LD, IDs únicos, âncoras e assets.
 
 ## Publicação
 

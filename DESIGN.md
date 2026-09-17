@@ -1,68 +1,53 @@
 # Design da landing previdenciária
 
-Revisão de 16/09/2026. A implementação atual é a referência; as auditorias anteriores são registros históricos.
+Revisão de 17/09/2026. A implementação atual é a referência; auditorias antigas registram versões anteriores.
 
 ## Direção
 
-Página clara, com fotografia, tipografia editorial e linguagem próxima do público que procura aposentadoria ou benefícios do INSS. A primeira tela identifica o serviço, apresenta o benefício da orientação e permite iniciar o contato. O formulário fica em uma seção própria.
+Fotografia de cenas familiares, fundo marfim, verde escuro e terracota. Abertura com assunto claro, foto grande e contato visível. Áreas separadas com perguntas curtas; andamento do pedido explicado sem depender de interação. Retrato real do advogado preservado.
 
-Base de trabalho: `ui-ux-pro-max`, com consulta `legal services approachable editorial`, e pesquisas específicas de rótulos, validação e leitura. A recomendação foi adaptada ao escritório, sem números de sucesso, avaliações ou credenciais inventadas.
+Base: UI/UX Pro Max, consulta `legal services accessible warm photography`. Recomendações de contraste, foco, leitura e navegação foram adaptadas à identidade existente.
 
-## Cores implementadas
+## Sistema visual
 
-| Token | Cor | Uso |
-| --- | --- | --- |
-| `--ink` | `#243d38` | Títulos, ações principais, seção do advogado e rodapé |
-| `--ink-hover` | `#172d29` | Feedback dos botões |
-| `--body` | `#4e5853` | Texto corrido |
-| `--accent` | `#885b2f` | Destaque na aposentadoria, ícones e etiquetas |
-| `--gold` | `#ddc399` | Destaque sobre fundo escuro |
-| `--paper` | `#faf8f3` | Fundo principal |
-| `--sand` | `#eee8de` | Contato e encerramento |
-| `--line` | `#dadcd2` | Divisórias |
-| `--on-dark` | `#d8e2dc` | Texto sobre verde escuro |
+| Uso | Valor |
+| --- | --- |
+| Títulos, botões, seção do pedido | `#253f35` |
+| Texto corrido | `#4b574e` |
+| Destaques e ícones | `#925231` |
+| Fundo principal | `#f8f5ee` |
+| Fundo dos serviços e formulário | `#fffefa` |
+| Texto no fundo escuro | `#e2e9df` |
+| Destaques no fundo escuro | `#e6c8a0` |
 
-## Tipografia e layout
+Lora nos títulos e DM Sans no corpo, com fontes locais. Corpo de 18 px no computador e 17 px no celular. Textos dos cartões no celular usam 17 px. Campos têm no mínimo 16 px. Títulos se ajustam à largura sem quebras manuais no H1.
 
-- Lora nos títulos; DM Sans no corpo e nas ações. Arquivos WOFF2 hospedados no próprio site, com licenças em `assets/fonts/` e `font-display: swap`.
-- Corpo de 17 px no desktop e 16 px no celular, com entrelinha de 1,65. Campos têm 16 px.
-- Conteúdo de até 1.200 px; laterais de 20 px no celular. A abertura tem duas colunas no desktop e uma no celular.
-- Os botões principais têm pelo menos 50 px de altura. Links de navegação, de serviços e perguntas oferecem alvos de ao menos 44 px.
-- O título não depende de quebras manuais; a largura e a escala foram conferidas em seis tamanhos de tela.
-
-## Sequência da página
-
-1. Serviço, foto do casal, ação principal, localização e identificação profissional.
-2. Atalhos para aposentadoria, benefício e negativa.
-3. Seis áreas de atendimento em blocos abertos, separados por linhas.
-4. Retrato real e apresentação de Ronaldo Moura.
-5. Três etapas do atendimento.
-6. Formulário para preparar a mensagem no WhatsApp.
-7. FAQ, convite de contato e rodapé com identificação e privacidade.
+Conteúdo até 1200 px, laterais de 20 px no celular. Cards em três, duas ou uma coluna conforme o espaço. Botões principais com pelo menos 56 px; navegação e demais ações com alvos de 44 px ou mais. Bordas, fundos e espaçamento separam assuntos sem exigir leitura do bloco inteiro.
 
 ## Imagens
 
-- `ronaldo-moura.webp`: foto original do advogado, sem alteração do rosto ou reconstrução por IA. A imagem mantém sua proporção na apresentação profissional.
-- `casal-documentos-previdencia.webp`: cena ilustrativa gerada na revisão anterior, sem identificação como cliente, testemunho ou caso real. Nesta versão, aparece na abertura.
-- As imagens foram codificadas em WebP, preservando as dimensões. A cena do casal passou de cerca de 1,9 MB para 96 KB; o retrato, de 164 KB para 16 KB.
-- A imagem principal tem `fetchpriority="high"`; o retrato abaixo da dobra usa carregamento tardio. Todas têm dimensões declaradas.
+Duas cenas ilustrativas novas, registradas em `IMAGENS.md`. Cada cena tem versões WebP de 640 e 1120 px, com `srcset` e `sizes`. A foto da abertura tem prioridade; a segunda é carregada conforme a rolagem. As dimensões estão declaradas para reservar espaço durante o carregamento.
 
-## Interação e acessibilidade
+O retrato de Ronaldo usa o arquivo original convertido para WebP, sem gerar ou modificar o rosto. Não há depoimentos associados às fotos ilustrativas.
 
-- Menu móvel e FAQ com `details`/`summary` nativos, utilizáveis por teclado. Escape fecha o menu.
-- Link de pular conteúdo, hierarquia semântica, foco visível e textos alternativos.
-- Formulário com rótulos, seleção nativa de assunto, mensagens junto dos campos e resumo de erros focável.
-- O assunto selecionado em um serviço é levado para o formulário. Nome, telefone e assunto entram na mensagem do WhatsApp.
-- A barra móvel aparece quando a ação da abertura saiu da tela e fica oculta durante a exibição do formulário.
-- Sem animações de entrada, conteúdo escondido por efeitos ou carrosséis. `prefers-reduced-motion` desliga a rolagem suave.
+## Navegação e leitura
 
-## Critérios para futuras revisões
+Atalhos da abertura levam a aposentadoria, benefício e pedido em andamento. As informações centrais ficam sempre visíveis. Apenas as perguntas frequentes e o menu móvel usam abertura e fechamento nativos.
 
-Conferir 320, 375, 390, 768, 1024 e 1440 px: ausência de rolagem lateral, CTA principal visível na primeira tela, fotos com proporções corretas e menu utilizável. Validar também erros de formulário, cada assunto, dados na mensagem preparada, FAQ por teclado e igualdade entre FAQ visível e JSON-LD. A navegação para WhatsApp deve ser interceptada durante os testes, sem enviar mensagens.
+A jornada está em quatro etapas numeradas. Foi escolhida uma apresentação estática porque não exige reprodução, som ou espera para acessar a informação. Não há carrossel, vídeo automático, animação de entrada ou conteúdo escondido por efeitos.
 
-## Referências
+## Formulário
 
-- [Nielsen Norman Group: leitura na web](https://www.nngroup.com/articles/how-users-read-on-the-web/).
-- [Nielsen Norman Group: usabilidade para pessoas mais velhas](https://www.nngroup.com/articles/usability-for-senior-citizens/).
-- [Cristiani Borges](https://cristianiborges.com.br/) e [Arraes & Centeno](https://arraesecenteno.com.br/): serviço identificado logo na abertura e caminhos por necessidade.
-- [Referência no Behance](https://www.behance.net/gallery/218012995/Website-Advogada-Alecsandra-Resende): hierarquia visual e presença de fotografia. Nenhum material da referência foi reutilizado.
+Nome, WhatsApp com DDD e assunto opcional. Consentimento, rótulos visíveis, erros próximos dos campos e resumo de erros com foco. Links de atendimento já selecionam o assunto. Há uma alternativa para abrir o WhatsApp diretamente.
+
+O botão prepara uma mensagem para o visitante enviar. Não confirma recebimento pelo escritório. A barra de contato móvel fica oculta quando o formulário aparece e quando a ação da abertura está visível.
+
+## QA realizado
+
+- Larguras 320, 375, 390, 768, 1024 e 1440 px: sem rolagem horizontal. A ação principal permaneceu dentro da primeira tela.
+- axe-core 4.10.3, WCAG A/AA: zero violações e 30 verificações aprovadas em 1440 e 390 px, sem itens inconclusivos nessa execução.
+- Seleção de nove assuntos, erros, dados preservados e uma única tentativa de abrir a mensagem no número correto.
+- FAQ operado por teclado; foco visível, hierarquia de títulos, âncoras e paridade com JSON-LD conferidos.
+- O WhatsApp foi interceptado durante o teste; nenhum contato foi enviado.
+
+A inspeção técnica não substitui teste de compreensão com pessoas do público. Em futuras revisões, observar se elas encontram o próprio assunto e explicam o que acontece ao tocar no contato.

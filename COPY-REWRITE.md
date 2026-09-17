@@ -1,80 +1,61 @@
 # Copy da landing de Ronaldo Moura
 
-Revisão de 16/09/2026. Texto completo aplicado em `index.html`.
+Revisão de 17/09/2026. Texto aplicado em `index.html`.
 
-## Público, serviço e ação
+## Público e objetivo
 
-Pessoas que querem saber se podem se aposentar, precisam de um benefício, receberam uma negativa ou encontraram um desconto. O serviço é orientação e atuação jurídica previdenciária. A ação principal é conversar com Ronaldo Moura pelo WhatsApp, após preparar uma mensagem com nome, telefone e assunto.
+Pessoas que querem se aposentar, precisam de um benefício ou não entendem a resposta do INSS. A página considera quem tem pouca familiaridade com leitura, internet e termos jurídicos. O objetivo é reconhecer a própria situação, entender o atendimento e iniciar uma conversa com Ronaldo.
 
-## Diagnóstico da versão anterior
+O formulário prepara a mensagem; o visitante ainda precisa enviá-la no WhatsApp. Não há envio automático, cadastro de lead no servidor ou promessa de retorno imediato.
 
-O título sobre a aposentadoria ter uma história ocupava muitas linhas e não explicava o serviço. Expressões como “entender o cenário” e “o que vale analisar” apareciam em vários blocos sem esclarecer o que a pessoa receberia. Três colunas apertavam texto, retrato e formulário na abertura. O formulário não informava com precisão que o usuário ainda precisava enviar a mensagem pelo WhatsApp.
+## Referências estudadas e aplicação
 
-## Pesquisa aplicada
-
-- **Copywriting:** valor específico, uma ideia por seção, benefícios associados ao serviço e próximo passo explícito.
-- **No AI Slop:** remoção de metáforas vagas, frases intercambiáveis e repetição de expressões abstratas.
-- **UI/UX Pro Max:** hierarquia, contraste, alvos de toque, rótulos visíveis, validação próxima aos campos e fluxo curto.
-- [Nielsen Norman Group, How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/): títulos informativos, texto escaneável e conteúdo factual. Não foram extrapolados percentuais do estudo para conversão deste site.
-- [Nielsen Norman Group, Usability for Older Adults](https://www.nngroup.com/articles/usability-for-senior-citizens/): leitura, tamanho dos alvos e mensagens de erro compreensíveis.
-- [Cristiani Borges](https://cristianiborges.com.br/) e [Arraes & Centeno](https://arraesecenteno.com.br/): apresentação imediata da área de atuação e serviços organizados pelo que a pessoa procura. Não foram reutilizados textos, fotos, depoimentos ou números de clientes.
-- [Provimento 205/2021 da OAB](https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021): referência para evitar garantias, rankings, gratuidade e especialização não comprovada na comunicação.
-
-## Abertura aplicada
-
-**Identificação:** Advocacia previdenciária.
-
-**Título:** Entenda seus direitos na aposentadoria e no INSS.
-
-**Texto:** Saiba se já pode se aposentar, como pedir um benefício ou o que fazer após uma negativa. Converse diretamente com o advogado que vai analisar seu caso.
-
-**Ação:** Conversar com o advogado.
-
-**Localização:** Em Marília e online para todo o Brasil.
-
-Abertura alternativa para uma campanha exclusiva de planejamento: “Saiba se já pode pedir sua aposentadoria.” A versão publicada mantém benefícios e negativas porque também fazem parte do escopo desta página.
-
-## Atendimentos
-
-| Serviço | Necessidade explicada |
+| Referência | Aplicação nesta versão |
 | --- | --- |
-| Aposentadoria e planejamento | Conferir contribuição e registros antes do pedido |
-| Benefício negado ou cortado | Analisar a decisão recebida e os documentos |
-| Auxílio-doença e perícia | Orientar pedido, perícia e documentos médicos |
-| BPC/LOAS | Entender requisitos e apresentação do pedido |
-| Pensão e salário-maternidade | Saber quais documentos reunir |
-| Revisão e descontos | Conferir valores, extratos e contratos |
+| [Sampaio de Moura](https://sampaiodemoura.com.br/advogado-especialista-em-inss/) | Serviço apresentado na abertura, problemas conhecidos e acesso direto ao contato. |
+| [Ariane Massola](https://arianemassolaadv.com.br/pedido-em-analise/) | Jornada com etapas, seção para quem já fez o pedido e explicação do atendimento. |
+| [Olavo Gil](https://olavogiladv.vkron.pro/previdenciario/) | Áreas separadas, nome do benefício acompanhado de uma descrição curta. |
 
-Cada serviço tem um link que seleciona seu assunto no formulário.
+Os textos são próprios. Não foram transferidos depoimentos, números de clientes, credenciais, gratuidade, garantias ou prazos anunciados pelos outros escritórios.
 
-## Confiança e atendimento
+As referências anteriores de Cristiani Borges, Arraes & Centeno e Alecsandra Resende no Behance contribuíram para a identificação do serviço e o uso de fotografia. A presente revisão prioriza as três referências novas e o público informado pelo usuário.
 
-A apresentação identifica Ronaldo Rodrigues Moura, OAB/SP 367822, com foto real e localização. O texto informa atendimento direto e modalidades presencial e online, já presentes no site anterior. Não acrescenta avaliações, depoimentos, volume de clientes, resultados ou qualificações.
+## Base editorial e visual
 
-O processo explica três etapas: contar a necessidade, reunir os documentos indicados e combinar o atendimento e os honorários antes da contratação.
+Skills: Copywriting, Human Copywrite, No AI Slop e UI/UX Pro Max. O guia de Remotion também foi consultado: nesta versão, a jornada foi apresentada em texto e etapas estáticas, com toda a informação disponível sem reproduzir um vídeo.
 
-## Formulário e microcopy
+O título da abertura é “Quer se aposentar ou pedir um benefício do INSS?”. As áreas usam perguntas reconhecíveis, como “Já posso me aposentar?”, “Seu benefício foi negado?” e “Adoeceu e não consegue trabalhar?”. Cada bloco explica a atuação e oferece um contato com o assunto preenchido.
 
-**Título da seção:** Tire sua dúvida sobre aposentadoria ou benefício.
+A jornada tem quatro etapas: contar a situação, entender o caso, combinar o serviço e acompanhar as medidas contratadas. Honorários são explicados como os valores do atendimento. A contratação aparece antes do acompanhamento profissional, sem pressupor contratação ou análise gratuita.
 
-**Explicação:** Preencha seus dados para preparar uma mensagem ao escritório. Você confere e envia pelo WhatsApp para começar a conversa.
+## Informações conferidas
 
-**Campos:** Seu nome; WhatsApp com DDD; Sobre o que quer conversar? (opcional).
+- [Ministério do Desenvolvimento Social: BPC](https://www.gov.br/mds/pt-br/acoes-e-programas/SUAS/beneficios-assistenciais/beneficio-assistencial-ao-idoso-e-a-pessoa-com-deficiencia-bpc): público do benefício, necessidade de cumprir requisitos e ausência de exigência de contribuições ao INSS. A página não apresenta uma lista completa de critérios nem afirma elegibilidade individual.
+- [INSS: acompanhar requerimentos no Meu INSS](https://www.gov.br/inss/pt-br/centrais-de-conteudo/audios/funcionalidades-do-meu-inss-parte-2-11-2020-participacao-de-gisele-braga-dirat-cma): significado de pedido em análise ou exigência.
+- [Dataprev: Meu INSS e acompanhamento de pedidos](https://dataprev.gov.br/noticias/meu-inss-ferramenta-digital-para-acompanhar-processos-e-requerer-beneficios-do-inss): consulta de pedidos e exigência de informações ou documentos.
+- [Provimento 205/2021 da OAB](https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021): comunicação informativa, sem promessa de resultado, especialização não comprovada ou gratuidade anunciada.
 
-**Ação:** Continuar no WhatsApp.
+Não foram acrescentados requisitos detalhados, prazos judiciais ou valores que exigiriam análise individual. Os dados profissionais e de contato são os já presentes no projeto.
 
-**Depois da ação:** Mensagem preparada. Envie no WhatsApp para iniciar a conversa.
+## Estrutura aplicada
 
-O site não afirma que um contato já foi recebido pelo escritório, que alguém vai retornar automaticamente ou que há consulta gratuita. A mensagem precisa ser enviada pelo visitante no WhatsApp. A política de privacidade descreve esse funcionamento.
+1. Aposentadoria e benefício identificados na primeira tela, foto ilustrativa e contato.
+2. Três atalhos: aposentadoria, benefício e pedido já realizado.
+3. Seis situações principais, mais salário-maternidade e contribuições.
+4. Explicação visível de “em análise”, “em exigência” e “indeferido”.
+5. Quatro etapas do atendimento.
+6. Retrato real, identificação profissional e apresentação de Ronaldo.
+7. Formulário com alternativa de WhatsApp direto.
+8. Seis perguntas frequentes, contato final e informações do escritório.
 
-## FAQ e metadados
+## Padrão para próximas revisões
 
-Cinco perguntas sobre planejamento antes do pedido, negativa, documentos, atendimento à distância e honorários. Todas as respostas são iguais no HTML visível e no JSON-LD.
+Cada bloco deve responder: o que está acontecendo, o que o advogado faz e como começar. Escrever com palavras que a pessoa usaria numa conversa. Evitar repetir abstrações como “entender o cenário”, usar medo para pressionar ou prometer aprovação. O nome técnico pode aparecer, desde que explicado.
 
-**Title:** Advogado previdenciário em Marília | Ronaldo Moura.
+Preservar a foto real do advogado e tratar cenas geradas como ilustrações, sem sugerir clientes ou testemunhos. Manter os dados estruturados iguais ao conteúdo visível.
 
-**Description:** Aposentadoria, benefícios negados, auxílio-doença, BPC e pensão. Converse com Ronaldo Moura, advogado previdenciário em Marília, com atendimento online.
+## Verificação
 
-## Padrão editorial para manter
+Leitura completa, scanner editorial sem alertas, um H1, IDs únicos, âncoras válidas e FAQ sincronizado. Conferência em 320, 375, 390, 768, 1024 e 1440 px. Verificação automática WCAG A/AA pelo axe-core em 1440 e 390 px sem violações. Verificadas seleção dos nove assuntos, mensagem preparada com destino correto, erros do formulário e abertura do FAQ por teclado. O teste da mensagem foi interceptado localmente, sem envio ao escritório.
 
-O título informa o assunto. O parágrafo explica a necessidade e a atuação do escritório. A ação descreve o próximo passo real. Regras, valores, prazos, credenciais ou resultados só entram após confirmação específica. Leia o texto em voz alta e substitua trechos genéricos por uma explicação concreta antes de publicar.
+Essas verificações não equivalem a uma pesquisa com usuários ou medição de conversão.
